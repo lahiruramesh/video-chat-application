@@ -1,11 +1,10 @@
 {
   "name": "video-app-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "./server/src/index.js",
+  "description": "Run application on cyclic",
+  "main": "server/src/index.js",
   "scripts": {
-    "client-build": "cd ./client && npm run build",
-    "server-start": "node ./server/src/index.js"
+    "start": "node server/src/index.js"
   },
   "author": "@lahiruramesh",
   "license": "ISC"
